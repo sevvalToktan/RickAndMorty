@@ -1,0 +1,73 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.character-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.character-table th,
+.character-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.character-table th {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+.character-row:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.character-image {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.character-details {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.character-detail-image {
+    width: 150px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
